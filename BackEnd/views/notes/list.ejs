@@ -1,0 +1,10 @@
+
+<body>
+<h1><span class="fa fa-sign-in"></span>All Notes</h1>
+    <% for (var i=0; i<notes.length; i++) { %>
+        <li> <a href="/notes/<%= notes[i]._id%>"><%= notes[i].name %></a>
+        </li>
+
+    <% } %>
+</body>
+</html>

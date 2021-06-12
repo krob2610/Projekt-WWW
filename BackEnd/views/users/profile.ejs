@@ -1,0 +1,17 @@
+
+<body>
+
+        <h1 class=" fa fa-user"> Profile</h1><br>
+        <span><strong>user id</strong>: <%= user._id ? user._id : '' %></span><br>
+        <span><strong>Name</strong>: <%=  user.local.name  %></span><br>
+        <span><strong>Role</strong>: <%=  user.local.role  %></span><br>
+        <hr>
+        <div class="jumbotron">
+            <% if (user.local.email != null) { %>
+                <strong>email</strong>: <%= user.local.email %><br>
+            <% } %>
+
+        </div>
+
+</body>
+</html>

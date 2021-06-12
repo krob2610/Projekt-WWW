@@ -1,0 +1,10 @@
+
+<body>
+<h1><span class="fa fa-sign-in"></span>Categories</h1>
+<% for (var i=0; i<category.length; i++) { %>
+    <li> <a href="/category/<%= category[i]._id%>"><%= category[i].name %></a>
+    </li>
+
+<% } %>
+</body>
+</html>
