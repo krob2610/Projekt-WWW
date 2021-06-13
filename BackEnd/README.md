@@ -52,5 +52,5 @@ Użytkowników aplikacji można podzielić na 3 typy z odpowiadającymi im pozwo
 * passport
 * passport-local
 * multer
-
+* connect-flash
 
